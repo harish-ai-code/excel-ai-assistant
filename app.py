@@ -27,7 +27,7 @@ if menu == "Data Analytics & AI":
         if search:
             df = df[df.apply(lambda row: row.astype(str).str.contains(search, case=False).any(), axis=1)]
         
-        st.dataframe(df)
+        st.dataframe(df.astype(str))
 
         # 2. AI Chat
         st.divider()
