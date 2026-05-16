@@ -1,1 +1,3 @@
-Excel AI Assistant project for Bulding AI Course 
+# Excel AI Assistant
+
+Excel AI Assistant project for Building AI Course.
